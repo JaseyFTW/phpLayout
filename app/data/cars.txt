@@ -1,6 +1,6 @@
 2,Honda,Civic,2017,200000
 7,Lexus,RX350,2019,124578
-11,Honda,Swivvic,2017,200000
+11,Honda,Swivvic,2017,potato
 14,Honda,Civic,2017,1337
 16,Lexus,RX350,2017,784585
 17,Honda,Civic,2017,200000

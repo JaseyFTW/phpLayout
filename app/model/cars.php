@@ -58,6 +58,10 @@ switch(get('action')){
     $view = $current_view . 'add.phtml';
     break;
   }
+  default:{
+    $view = $current_view . 'view.phtml';  
+    $cars = file($file);
+  }
 }
 
 #var_dump($cars);

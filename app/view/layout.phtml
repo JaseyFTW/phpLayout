@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Site</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div id="container">
     <nav>
       <ul>
-        <li><a href="?page=home">Home</a></li>
-        <li><a href="?page=test">Test</a></li>
+        <li><a href="?page=home" class="<?php echo $page == 'home'?'active' : '';?>">Home</a></li>
+        <li><a href="?page=test" class="<?php echo $page == 'test'?'active' : '';?>">Test</a></li>
+        <li><a href="?page=cars" class="<?php echo $page == 'cars'?'active' : '';?>">Cars</a></li>
       </ul>
     </nav>
     <section id="main">
@@ -20,5 +22,6 @@
       ?>
     </section>
   </div>  
+
   </body>
 </html>
