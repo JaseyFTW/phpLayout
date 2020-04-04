@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site</title>
+</head>
+<body>
+  <div id="container">
+    <nav>
+      <ul>
+        <li><a href="?page=home">Home</a></li>
+        <li><a href="?page=test">Test</a></li>
+      </ul>
+    </nav>
+    <section id="main">
+      <h1> this is my layout </h1>
+      <?php
+        include $main_content;
+      ?>
+    </section>
+  </div>  
+  </body>
+</html>

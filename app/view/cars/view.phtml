@@ -1,0 +1,16 @@
+<h1>View Car</h1>
+<table>
+<?php
+
+  foreach ($cars as $car) {
+    $car_fields = explode(',',$car);
+    echo '<tr>';
+    foreach($car_fields as $field) {
+     echo '<td>' . $field . '</td>'; 
+    }
+    echo '<td><a href="?page=cars&action=delete&id=' . $car_fields[0] . '">Delete</td>';
+    echo '<td><a href="?page=cars&action=update&id=' . $car_fields[0] . '">Update</td>';
+  }
+
+?>
+</table>
