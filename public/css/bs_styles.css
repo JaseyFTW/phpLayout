@@ -14,7 +14,7 @@ nav li a:visited, nav li a:link{
 }
 
 li:hover{
-  background: rgb(196, 229, 240);
+  background:  rgb(248, 213, 242);
   border-radius: 10px;
 }
 
@@ -28,14 +28,14 @@ li:hover{
 .btn-primary{
   background-color: rgb(255, 162, 240);
   border-color: rgb(255, 71, 246);
-  border-radius: 10px;
+  border-radius: 100px;
 
 }
 
 .btn-success{
   background-color: rgb(253, 138, 234);
   border-color: rgb(255, 71, 246);
-  border-radius: 10px;
+  border-radius: 100px;
 }
 
 .active{
