@@ -1,0 +1,45 @@
+nav{
+  background:deepskyblue;
+  color:white;
+}
+
+nav ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav li a:visited, nav li a:link{
+  color:white;
+  text-decoration:none;
+}
+
+li:hover{
+  background: rgb(196, 229, 240);
+  border-radius: 10px;
+}
+
+#container{
+  border: 1px solid darkgrey;
+  white-space:800px;
+  margin: 5px auto;
+  min-height: 600px;
+}
+
+.btn-primary{
+  background-color: rgb(255, 162, 240);
+  border-color: rgb(255, 71, 246);
+  border-radius: 10px;
+
+}
+
+.btn-success{
+  background-color: rgb(253, 138, 234);
+  border-color: rgb(255, 71, 246);
+  border-radius: 10px;
+}
+
+.active{
+  background-color: rgb(255, 162, 240);
+  border-color: rgb(255, 71, 246);
+  border-radius: 10px;
+}
