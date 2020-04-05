@@ -36,7 +36,7 @@ switch(get('action')){
         break;
       }
     }
-    print_r($car_to_update);
+    
     break;
   }
   case 'doUpdate':{
